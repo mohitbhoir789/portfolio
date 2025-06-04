@@ -32,9 +32,9 @@ export const Projects = () => {
     },
     {
       title: "Area Code Analysis",
-      description: "A data science project analyzing US area codes for insights into geographic, demographic, and telecom trends. Includes data wrangling, visualization, and interactive dashboards.",
-      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=600&h=400&fit=crop",
-      tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "Plotly", "Data Visualization"],
+      description: "Investigated the 1947 North American Numbering Plan (NANP) area code allocations using R and Python to uncover systemic biases. Combined spatial datasets, census records, and predictive modeling to reveal strong links between dialing ease and demographics. Found evidence that areas with larger Black populations in high-density regions received harder-to-dial codes. Built ML models using 1950s data to predict future area code splits with 87.5% accuracy.",
+      image: "images/projects/AreaCodeAnalysis.png",
+      tech: ["R", "Python", "GIS", "Statistical Modeling", "Machine Learning", "Data Visualization"],
       github: "https://github.com/mohitbhoir789/Area-Code-Analysis",
       live: "#",
       featured: true
