@@ -8,7 +8,7 @@ export const Projects = () => {
       description: "Developed a semantic-search-based chatbot using a dataset of 343K+ IMDb movies (2000–2024). Used Hugging Face embeddings + Pinecone vector DB to enable real-time recommendation retrieval with under 1-second latency. Achieved over 92% accuracy in matching user query intents.",
       image: "images/projects/movie-chatbot.png",
       tech: ["Python", "RAG", "Hugging Face", "Pinecone", "PostgreSQL", "TMDb API"],
-      github: "https://github.com/mohitbhoir789/movie-recommendation-chatbot",
+      github: "https://github.com/mohitbhoir789/Movie_Recommendation_Chatbot",
       live: "#",
       featured: true
     },
@@ -17,7 +17,7 @@ export const Projects = () => {
       description: "Analyzed takeover data from 126 U.S. firms over 8 years to identify predictors of acquisition likelihood. Built classification models (Poisson regression, Random Forest, XGBoost) with logistic regression achieving AUC = 0.78 and 77% accuracy.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
       tech: ["Python", "Scikit-learn", "Regression", "XGBoost", "Statistical Analysis"],
-      github: "https://github.com/mohitbhoir789/corporate-takeover-analysis",
+      github: "https://github.com/mohitbhoir789/Statistical-Analysis-of-Corporate-Takeovers",
       live: "#",
       featured: true
     },
@@ -26,7 +26,7 @@ export const Projects = () => {
       description: "Created an interactive Tableau dashboard using 1.2M+ ODI ball-by-ball records (2002–2023) to analyze player and team performance. Performed SQL-based ETL and implemented LOD calculations to generate 20+ KPIs for match summaries.",
       image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&h=400&fit=crop",
       tech: ["SQL", "Tableau", "LOD Calculations", "KPI Metrics", "Data ETL"],
-      github: "https://github.com/mohitbhoir789/cricket-analysis-dashboard",
+      github: "https://github.com/mohitbhoir789/Cricket-Analysis-Dashboard",
       live: "#",
       featured: false
     },
@@ -36,6 +36,15 @@ export const Projects = () => {
       image: "images/projects/AreaCodeAnalysis.png",
       tech: ["R", "Python", "GIS", "Statistical Modeling", "Machine Learning", "Data Visualization"],
       github: "https://github.com/mohitbhoir789/Area-Code-Analysis",
+      live: "#",
+      featured: true
+    },
+    {
+      title: "AI Research Lab",
+      description: "Built an advanced Streamlit-based AI research assistant leveraging LLM capabilities including text generation, text-to-image synthesis, and few-shot/zero-shot learning. Implemented sophisticated MCP server architecture with specialized agents for research, verification, and summarization. Features include persona-based interactions, robust guardrails with handoff protocols, multi-step reasoning through LLM chaining, RAG-enhanced knowledge retrieval, and PEFT fine-tuning. Achieved high accuracy in domain-specific tasks using custom embeddings and efficient vector search.",
+      image: "images/projects/ai_lab.png",
+      tech: ["LLMs", "RAG", "LangChain", "MCP", "Vector DB", "PEFT"],
+      github: "https://github.com/mohitbhoir789/ai_research_lab",
       live: "#",
       featured: true
     }
@@ -98,6 +107,7 @@ export const Projects = () => {
                     <Github className="text-blue-600" size={20} />
                     <span>Code</span>
                   </a>
+                  {/* Live Demo button - Currently disabled, will be implemented in future */}
                   <a
                     href={project.live}
                     target="_blank"
