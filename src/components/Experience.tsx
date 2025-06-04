@@ -4,6 +4,22 @@ import { getAssetPath } from "@/lib/asset-path";
 export const Experience = () => {
   const experiences = [
     {
+      title: "Data Analytics: Qualitative & Quantitative Insights Extern",
+      company: "Extern | Beats by Dre",
+      location: "Remote",
+      duration: "May 2025 - Aug 2025",
+      type: "Part-time",
+      logo: "images/logos/extern.png",
+      achievements: [
+        "Analyzed customer feedback and survey data to uncover key insights driving business decisions",
+        "Performed sentiment analysis and AI-powered analytics using Python to evaluate customer responses",
+        "Developed data visualizations and dashboards to effectively communicate findings to stakeholders",
+        "Conducted competitor analysis and market research to inform business strategy",
+        "Created comprehensive presentations synthesizing quantitative and qualitative insights",
+        "Utilized AI tools for advanced data analysis and pattern recognition in consumer behavior"
+      ]
+    },
+    {
       title: "Software Development Engineer",
       company: "Amdocs, India",
       location: "Pune, India",
