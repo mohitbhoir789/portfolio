@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github } from "lucide-react";
 import { getAssetPath } from "@/lib/asset-path";
 
@@ -32,13 +31,13 @@ export const Projects = () => {
       featured: false
     },
     {
-      title: "Automated Testing Framework",
-      description: "Automated regression test suites using Selenium and Robot Framework at Amdocs, reducing release cycles by 30% and boosting deployment efficiency. Achieved 95% test accuracy and accelerated QA feedback loops.",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
-      tech: ["Selenium", "Robot Framework", "Python", "API Testing", "ServiceNow"],
-      github: "https://github.com/mohitbhoir789/automation-framework",
+      title: "Area Code Analysis",
+      description: "A data science project analyzing US area codes for insights into geographic, demographic, and telecom trends. Includes data wrangling, visualization, and interactive dashboards.",
+      image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=600&h=400&fit=crop",
+      tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "Plotly", "Data Visualization"],
+      github: "https://github.com/mohitbhoir789/Area-Code-Analysis",
       live: "#",
-      featured: false
+      featured: true
     }
   ];
 
