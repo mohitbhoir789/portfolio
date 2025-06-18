@@ -4,33 +4,6 @@ import { getAssetPath } from "@/lib/asset-path";
 export const Projects = () => {
   const projects = [
     {
-      title: "Movie Recommendation Chatbot",
-      description: "Developed a semantic-search-based chatbot using a dataset of 343K+ IMDb movies (2000–2024). Used Hugging Face embeddings + Pinecone vector DB to enable real-time recommendation retrieval with under 1-second latency. Achieved over 92% accuracy in matching user query intents.",
-      image: "images/projects/movie-chatbot.png",
-      tech: ["Python", "RAG", "Hugging Face", "Pinecone", "PostgreSQL", "TMDb API"],
-      github: "https://github.com/mohitbhoir789/Movie_Recommendation_Chatbot",
-      live: "#",
-      featured: true
-    },
-    {
-      title: "Statistical Analysis of Corporate Takeovers",
-      description: "Analyzed takeover data from 126 U.S. firms over 8 years to identify predictors of acquisition likelihood. Built classification models (Poisson regression, Random Forest, XGBoost) with logistic regression achieving AUC = 0.78 and 77% accuracy.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      tech: ["Python", "Scikit-learn", "Regression", "XGBoost", "Statistical Analysis"],
-      github: "https://github.com/mohitbhoir789/Statistical-Analysis-of-Corporate-Takeovers",
-      live: "#",
-      featured: true
-    },
-    {
-      title: "Cricket Analysis Dashboard",
-      description: "Created an interactive Tableau dashboard using 1.2M+ ODI ball-by-ball records (2002–2023) to analyze player and team performance. Performed SQL-based ETL and implemented LOD calculations to generate 20+ KPIs for match summaries.",
-      image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&h=400&fit=crop",
-      tech: ["SQL", "Tableau", "LOD Calculations", "KPI Metrics", "Data ETL"],
-      github: "https://github.com/mohitbhoir789/Cricket-Analysis-Dashboard",
-      live: "#",
-      featured: true
-    },
-    {
       title: "Area Code Analysis",
       description: "Investigated the 1947 North American Numbering Plan (NANP) area code allocations using R and Python to uncover systemic biases. Combined spatial datasets, census records, and predictive modeling to reveal strong links between dialing ease and demographics. Found evidence that areas with larger Black populations in high-density regions received harder-to-dial codes. Built ML models using 1950s data to predict future area code splits with 87.5% accuracy.",
       image: "images/projects/AreaCodeAnalysis.png",
@@ -45,6 +18,33 @@ export const Projects = () => {
       image: "images/projects/ai_lab.png",
       tech: ["LLMs", "RAG", "LangChain", "MCP", "Vector DB", "PEFT"],
       github: "https://github.com/mohitbhoir789/ai_research_lab",
+      live: "#",
+      featured: true
+    },
+    {
+      title: "Statistical Analysis of Corporate Takeovers",
+      description: "Analyzed takeover data from 126 U.S. firms over 8 years to identify predictors of acquisition likelihood. Built classification models (Poisson regression, Random Forest, XGBoost) with logistic regression achieving AUC = 0.78 and 77% accuracy.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      tech: ["Python", "Scikit-learn", "Regression", "XGBoost", "Statistical Analysis"],
+      github: "https://github.com/mohitbhoir789/Statistical-Analysis-of-Corporate-Takeovers",
+      live: "#",
+      featured: true
+    },
+    {
+      title: "Movie Recommendation Chatbot",
+      description: "Developed a semantic-search-based chatbot using a dataset of 343K+ IMDb movies (2000–2024). Used Hugging Face embeddings + Pinecone vector DB to enable real-time recommendation retrieval with under 1-second latency. Achieved over 92% accuracy in matching user query intents.",
+      image: "images/projects/movie-chatbot.png",
+      tech: ["Python", "RAG", "Hugging Face", "Pinecone", "PostgreSQL", "TMDb API"],
+      github: "https://github.com/mohitbhoir789/Movie_Recommendation_Chatbot",
+      live: "#",
+      featured: true
+    },
+    {
+      title: "Cricket Analysis Dashboard",
+      description: "Created an interactive Tableau dashboard using 1.2M+ ODI ball-by-ball records (2002–2023) to analyze player and team performance. Performed SQL-based ETL and implemented LOD calculations to generate 20+ KPIs for match summaries.",
+      image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&h=400&fit=crop",
+      tech: ["SQL", "Tableau", "LOD Calculations", "KPI Metrics", "Data ETL"],
+      github: "https://github.com/mohitbhoir789/Cricket-Analysis-Dashboard",
       live: "#",
       featured: true
     }
