@@ -28,7 +28,7 @@ export const Projects = () => {
       tech: ["SQL", "Tableau", "LOD Calculations", "KPI Metrics", "Data ETL"],
       github: "https://github.com/mohitbhoir789/Cricket-Analysis-Dashboard",
       live: "#",
-      featured: false
+      featured: true
     },
     {
       title: "Area Code Analysis",
