@@ -1,20 +1,12 @@
-# Welcome to your Lovable project
+# Mohit Bhoir's Portfolio
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/c0fdd6c8-39d1-4066-875b-f299a484051b
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
 
-## How can I edit this code?
+## Development
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/c0fdd6c8-39d1-4066-875b-f299a484051b) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
+To work on this project locally:
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
@@ -60,14 +52,12 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/c0fdd6c8-39d1-4066-875b-f299a484051b) and click on Share -> Publish.
+This project is configured for deployment to GitHub Pages. To deploy:
 
-## Can I connect a custom domain to my Lovable project?
+1. Ensure your repository is set up for GitHub Pages
+2. Run `npm run deploy` to build and deploy the site
+3. Your site will be available at your GitHub Pages URL
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For custom domain setup, follow GitHub's documentation on setting up custom domains for GitHub Pages.
