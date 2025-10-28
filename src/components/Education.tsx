@@ -7,7 +7,7 @@ export const Education = () => {
       institution: "University of Connecticut",
       location: "Storrs, Connecticut",
       period: "2024 - 2025",
-      gpa: "3.78/4.0",
+      gpa: "3.79/4.0",
       details: [
         "Coursework: Machine Learning, Deep Learning, Natural Language Processing, Data Mining, Statistical Methods",
         "Projects included developing machine learning models, natural language processing applications, and data analysis solutions",
