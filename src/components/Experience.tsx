@@ -4,19 +4,19 @@ import { getAssetPath } from "@/lib/asset-path";
 export const Experience = () => {
   const experiences = [
     {
-      title: "Data Analytics: Qualitative & Quantitative Insights Extern",
-      company: "Extern | Beats by Dre",
+      title: "Data Science & Consumer Insights Extern (Remote)",
+      company: "Beats by Dre",
       location: "Remote",
       duration: "May 2025 - Aug 2025",
       type: "Part-time",
       logo: "images/logos/extern.png",
       achievements: [
-        "Analyzed customer feedback and survey data to uncover key insights driving business decisions",
-        "Performed sentiment analysis and AI-powered analytics using Python to evaluate customer responses",
-        "Developed data visualizations and dashboards to effectively communicate findings to stakeholders",
-        "Conducted competitor analysis and market research to inform business strategy",
-        "Created comprehensive presentations synthesizing quantitative and qualitative insights",
-        "Utilized AI tools for advanced data analysis and pattern recognition in consumer behavior"
+        "Performed exploratory data analysis and sentiment analysis on over 5,000 Amazon reviews using Python, BeautifulSoup, TextBlob, Pandas, and Seaborn to uncover product sentiment and brand positioning",
+        "Segmented customer survey data using Pandas and NumPy to define user personas based on generation, price sensitivity, and feature prioritization",
+        "Extracted key demand drivers such as bass-forward sound, battery life, and design aesthetics through polarity scores, frequency distributions, and word cloud visualizations",
+        "Automated the data scraping pipeline using BeautifulSoup and OxyLabs, reducing manual data collection time by 90% and improving dataset scale and quality",
+        "Translated technical findings into data-backed launch recommendations, including product specifications, pricing, and go-to-market strategy",
+        "Utilized tools such as Python, Pandas, NumPy, Matplotlib, Seaborn, BeautifulSoup, TextBlob, and WordCloud throughout the analysis workflow"
       ]
     },
     {
@@ -27,12 +27,15 @@ export const Experience = () => {
       type: "Full-time",
       logo: "images/logos/amdocs.png",
       achievements: [
-        "Automated regression test suites using Selenium and Robot Framework, reducing release cycles by 30% and boosting deployment efficiency",
-        "Engineered scalable ServiceNow workflows that eliminated ~40% of repetitive manual tasks, streamlining request processing time by 25%",
-        "Built 5+ real-time dashboards in Power BI, enhancing reporting efficiency and enabling data-driven decision-making for key stakeholders",
-        "Collaborated with 4+ cross-functional teams to design AI-based automation tools, improving accuracy and team productivity by 20%",
-        "Integrated regression testing pipelines within development cycles, achieving 95% test accuracy and accelerating QA feedback loops",
-        "Developed scripts to test APIs for Order Management System (OMS) and Customer Service Provisioning (CSP), ensuring robust backend integration"
+        "Engineered and automated ServiceNow workflows and custom modules for AT& T’s Fiber Broadband and Gigapower platforms, improving operational efficiency and reducing manual interventions by 40%.",
+        "Developed and maintained Automated Test Framework (ATF) test suites and Python-based regression scripts, integrating them with CI/CD pipelines to shorten release validation cycles by 30%.",
+        "Implemented REST API integrations using Postman and Swagger to validate and synchronize CMDB, Order Management, and Service Provisioning systems across multiple microservices.",
+        "Built automation scripts for regression pipelines and data validations, reducing repetitive tasks and improving test coverage by 35%.",
+        "Collaborated with cross-functional Agile teams (Product Owners, Developers, and QA) to design, develop, and deliver new ServiceNow features through the full SDLC.",
+        "Configured and administered ServiceNow CMDB modules, enhancing data reliability and supporting integration with external RESTful services.",
+        "Created Power BI dashboards and automated email notifications for daily test summaries, improving visibility into sprint metrics and team productivity tracking.",
+        "Designed and executed unit, functional, integration, and system-level tests for large-scale deployments, ensuring end-to-end reliability of AT&T’s enterprise systems.",
+        "Partnered with architects to analyze requirements, write user stories, and develop scalable solutions aligned with AT&T’s enterprise architecture standards."
       ]
     },
     // Doordarshan experience removed as requested

@@ -7,6 +7,7 @@ export const Skills = () => {
         { name: "Python", color: "from-blue-500 to-cyan-500" },
         { name: "R", color: "from-blue-600 to-blue-800" },
         { name: "SQL", color: "from-orange-500 to-red-500" },
+        { name: "C++", color: "from-gray-500 to-gray-700" },
         { name: "Java", color: "from-red-500 to-red-700" },
         { name: "JavaScript", color: "from-yellow-400 to-yellow-600" }
       ]
@@ -18,6 +19,10 @@ export const Skills = () => {
         { name: "PyTorch", color: "from-red-500 to-red-700" },
         { name: "Scikit-Learn", color: "from-blue-500 to-blue-700" },
         { name: "Pandas", color: "from-purple-500 to-purple-700" },
+        { name: "Keras", color: "from-pink-500 to-pink-700" },
+        { name: "NumPy", color: "from-cyan-500 to-cyan-700" },
+        { name: "Matplotlib", color: "from-indigo-500 to-indigo-700" },
+        { name: "SciPy", color: "from-green-500 to-green-700" },
         { name: "Flask", color: "from-gray-600 to-gray-800" }
       ]
     },
@@ -25,6 +30,7 @@ export const Skills = () => {
       category: "Databases & Tools",
       skills: [
         { name: "PostgreSQL", color: "from-blue-700 to-indigo-700" },
+        { name: "MySQL", color: "from-blue-500 to-blue-700" },
         { name: "MongoDB", color: "from-green-600 to-green-800" },
         { name: "Power BI", color: "from-yellow-500 to-orange-500" },
         { name: "Tableau", color: "from-blue-500 to-blue-700" },
@@ -39,6 +45,23 @@ export const Skills = () => {
         { name: "NLP", color: "from-green-500 to-green-700" },
         { name: "Time Series", color: "from-cyan-500 to-cyan-700" },
         { name: "Data Mining", color: "from-pink-500 to-pink-700" }
+      ]
+    }
+    ,
+    {
+      category: "DevOps & Tools",
+      skills: [
+        { name: "Docker", color: "from-sky-500 to-cyan-600" },
+        { name: "Airflow", color: "from-orange-400 to-orange-600" },
+        { name: "MLflow", color: "from-red-400 to-red-600" },
+        { name: "Jenkins", color: "from-gray-600 to-gray-800" },
+        { name: "CI/CD", color: "from-emerald-500 to-emerald-700" },
+        { name: "Postman", color: "from-pink-400 to-pink-600" },
+        { name: "Swagger", color: "from-yellow-400 to-yellow-600" },
+        { name: "ServiceNow", color: "from-indigo-500 to-indigo-700" },
+        { name: "Selenium", color: "from-blue-500 to-blue-700" },
+        { name: "Robot Framework", color: "from-violet-500 to-violet-700" },
+        { name: "JIRA", color: "from-red-500 to-red-700" }
       ]
     }
   ];
