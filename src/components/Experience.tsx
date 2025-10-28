@@ -35,19 +35,7 @@ export const Experience = () => {
         "Developed scripts to test APIs for Order Management System (OMS) and Customer Service Provisioning (CSP), ensuring robust backend integration"
       ]
     },
-    {
-      title: "Media Analytics and Network Intern",
-      company: "Doordarshan, Mumbai",
-      location: "Mumbai, India", 
-      duration: "Dec 2019 - Jan 2020",
-      type: "Internship",
-      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Doordarshan_Logo.svg/1200px-Doordarshan_Logo.svg.png",
-      achievements: [
-        "Analyzed broadcast and signal data to identify viewership trends across 50+ programs",
-        "Maintained electronics and network systems for 3 channels, ensuring 99.9% uptime",
-        "Supported diagnostics that reduced data and signal errors by 15%"
-      ]
-    }
+    // Doordarshan experience removed as requested
   ];
 
   return (
