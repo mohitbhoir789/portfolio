@@ -88,7 +88,7 @@ export const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      details: "Willimantic, CT 06226",
+      details: "Hartford, CT 06103",
       link: "#"
     }
   ];
