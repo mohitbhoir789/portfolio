@@ -5,7 +5,7 @@ export const Experience = () => {
   const experiences = [
     {
       title: "Data Scientist Intern (Remote)",
-      company: "Beats by Dre",
+      company: "Beats by Dre - Extern",
       location: "Remote",
       duration: "May 2025 - Aug 2025",
       type: "Part-time",
