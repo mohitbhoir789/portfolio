@@ -4,7 +4,7 @@ import { getAssetPath } from "@/lib/asset-path";
 export const Experience = () => {
   const experiences = [
     {
-      title: "Data Science & Consumer Insights Extern (Remote)",
+      title: "Data Scientist Intern (Remote)",
       company: "Beats by Dre",
       location: "Remote",
       duration: "May 2025 - Aug 2025",
